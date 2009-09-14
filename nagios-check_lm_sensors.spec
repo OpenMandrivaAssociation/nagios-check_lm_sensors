@@ -1,7 +1,7 @@
 %define up_name check_lm_sensors
 %define name    nagios-%{up_name}
 %define version 3.1.0
-%define release %mkrel 3
+%define release %mkrel 4
 
 Name:       %{name}
 Version:    %{version}
