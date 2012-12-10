@@ -47,3 +47,29 @@ rm -rf %{buildroot}
 %{_datadir}/nagios/plugins/check_lm_sensors
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_lm_sensors.cfg
 
+
+
+%changelog
+* Sat Dec 11 2010 Oden Eriksson <oeriksson@mandriva.com> 3.1.0-5mdv2011.0
++ Revision: 620459
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 3.1.0-4mdv2010.0
++ Revision: 440201
+- rebuild
+
+* Mon Dec 15 2008 Guillaume Rousse <guillomovitch@mandriva.org> 3.1.0-3mdv2009.1
++ Revision: 314635
+- now a noarch package
+
+* Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 3.1.0-2mdv2009.0
++ Revision: 268243
+- rebuild early 2009.0 package (before pixel changes)
+
+* Wed Jun 11 2008 Guillaume Rousse <guillomovitch@mandriva.org> 3.1.0-1mdv2009.0
++ Revision: 218048
+- import nagios-check_lm_sensors
+
+
+* Wed Jun 11 2008 Guillaume Rousse <guillomovitch@mandriva.org> 3.1.0-1mdv2009.0
+- first mdv package
